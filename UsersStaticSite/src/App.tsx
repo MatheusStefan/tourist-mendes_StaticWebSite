@@ -1,11 +1,12 @@
 import React from "react"
 import { Route, Routes } from "react-router-dom"
+import Header from "./components/Header/Header"
 
 function App(): React.ReactNode {
   return (
     <main>
       <Routes>
-        <Route path="/" element={(<h1>Hello World!</h1>)} />
+        <Route path="/" element={(<Header />)} />
       </Routes>
     </main>
   )
