@@ -17,22 +17,22 @@ function Header(): React.ReactNode {
           <nav>
             <ul className='flex gap-6 lg:gap-10'>
               <li>
-                <Link to={"/atracoes"} className='text-black-100 leading-8 hover:border-t-4 transition duration-300 pt-8'>
+                <Link to={"/atracoes"} className='text-white-100 leading-8 hover:border-t-4 transition duration-300 pt-8 dark:text-black-100'>
                   Atrações Locais
                 </Link>
               </li>
               <li>
-                <Link to={"/agentes"} className='text-black-100 leading-8 hover:border-t-4 transition duration-300 pt-8'>
+                <Link to={"/agentes"} className='text-white-100 leading-8 hover:border-t-4 transition duration-300 pt-8 dark:text-black-100'>
                   Agentes Culturais
                 </Link>
               </li>
               <li>
-                <Link to={"/mapa"} className='text-black-100 leading-8 hover:border-t-4 transition duration-300 pt-8'>
+                <Link to={"/mapa"} className='text-white-100 leading-8 hover:border-t-4 transition duration-300 pt-8 dark:text-black-100'>
                   Mapa Interativo
                 </Link>
               </li>
               <li>
-                <Link to={"#footer"} className='text-black-100 leading-8 hover:border-t-4 transition duration-300 pt-8'>
+                <Link to={"#footer"} className='text-white-100 leading-8 hover:border-t-4 transition duration-300 pt-8 dark:text-black-100'>
                   Sobre
                 </Link>
               </li>
@@ -65,28 +65,28 @@ function Header(): React.ReactNode {
             </button>
             <ul className='flex flex-col items-center gap-10'>
               <li>
-                <Link to={"#"} className='text-black-100 font-semibold text-2xl'>
+                <Link to={"#"} className='text-white-100 font-semibold text-2xl dark:text-black-100'>
                   Atrações Locais
                 </Link>
               </li>
               <li>
-                <Link to={"#"} className='text-black-100 font-semibold text-2xl'>
+                <Link to={"#"} className='text-white-100 font-semibold text-2xl dark:text-black-100'>
                   Agentes Culturais
                 </Link>
               </li>
               <li>
-                <Link to={"#"} className='text-black-100 font-semibold text-2xl'>
+                <Link to={"#"} className='text-white-100 font-semibold text-2xl dark:text-black-100'>
                   Mapa Interativo
                 </Link>
               </li>
               <li>
-                <Link to={"#"} className='text-black-100 font-semibold text-2xl'>
+                <Link to={"#"} className='text-white-100 font-semibold text-2xl dark:text-black-100'>
                   Sobre
                 </Link>
               </li>
             </ul>
           </nav>
-          <ToggleThemeButton width={80} height={20} />
+          <ToggleThemeButton width={100} height={30} />
         </div>
       </aside>
     </>
