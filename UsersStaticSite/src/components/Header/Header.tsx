@@ -53,7 +53,7 @@ function Header(): React.ReactNode {
 
       <aside
         className={`fixed top-0 right-0 flex items-center justify-center w-full h-full bg-blue-100 transform ${isMenuOpen ? 'translate-x-full' : '-translate-x-0'
-          } transition-transform duration-300 md:hidden`}>
+          } transition-transform duration-300 md:hidden z-50`}>
         <div className='flex flex-col items-center'>
           <nav className='mb-10'>
             <button onClick={handleMenuToggle} className="absolute top-8 right-4 text-white text-2xl">
