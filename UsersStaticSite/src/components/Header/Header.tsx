@@ -11,7 +11,7 @@ function Header(): React.ReactNode {
 
   return (
     <>
-      <header id='header' className="flex items-center justify-between md:justify-evenly bg-blue-100 h-24 px-4 md:px-8 w-full" >
+      <header id='header' className="flex items-center justify-between md:justify-evenly bg-primary h-24 px-4 md:px-8 w-full" >
         <img src="" alt="TurisMendes-logo" />
         <div className='hidden md:flex items-center gap-20'>
           <nav>
@@ -52,7 +52,7 @@ function Header(): React.ReactNode {
       </header>
 
       <aside
-        className={`fixed top-0 right-0 flex items-center justify-center w-full h-full bg-blue-100 transform ${isMenuOpen ? 'translate-x-full' : '-translate-x-0'
+        className={`fixed top-0 right-0 flex items-center justify-center w-full h-full bg-primary transform ${isMenuOpen ? 'translate-x-full' : '-translate-x-0'
           } transition-transform duration-300 md:hidden`}>
         <div className='flex flex-col items-center'>
           <nav className='mb-10'>

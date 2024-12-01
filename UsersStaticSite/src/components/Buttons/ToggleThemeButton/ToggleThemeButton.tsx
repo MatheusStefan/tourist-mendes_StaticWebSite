@@ -35,7 +35,7 @@ const ToggleThemeButton: React.FC<ToggleThemeButtonProps> = ({ width, height }) 
       <motion.div
         layout
         transition={spring}
-        className="w-3 h-3 rounded-full bg-blue-100"
+        className="w-3 h-3 rounded-full bg-primary"
       />
     </button>
   );
