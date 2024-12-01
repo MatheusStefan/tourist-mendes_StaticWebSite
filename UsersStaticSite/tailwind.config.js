@@ -8,6 +8,7 @@ export default {
     extend: {},
     colors: {
       primary: "#27A4BD",
+      secondary: "#BF1A1A",
       white: {
         100: "#fff"
       },
@@ -15,10 +16,8 @@ export default {
         100: "#000",
         200: "#1B1B1B"
       },
-      secondary: "#BF1A1A",
     }
   },
   darkMode: 'class',
   plugins: [],
 }
-
