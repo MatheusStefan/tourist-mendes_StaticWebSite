@@ -5,7 +5,7 @@ import HomePage from "./pages/Home/HomePage"
 import Footer from "./components/Footer/Footer"
 import LocalAttraction from "./pages/LocalAttraction/LocalAttraction"
 import NotFound from "./pages/NotFound/NotFound"
-import EventoPage from "./pages/Evento/EventoPage"
+import EventoPage from "./pages/EventoPage/EventoPage"
 import TrilhaPage from "./pages/TrilhaPage/TrilhaPage"
 function App(): React.ReactNode {
   return (

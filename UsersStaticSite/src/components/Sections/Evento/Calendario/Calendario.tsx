@@ -49,18 +49,18 @@ const Calendario: React.FC<Props> = ({ schedule }) => {
 
           return (
             <CalendarioCard key={index}>
-              <div className="w-full flex flex-row items-center justify-start gap-4">
+              <div className="w-full flex flex-row items-center justify-start pl-4 gap-4">
                 {/* Left side: Month, Day, Weekday */}
-                <div className="flex flex-col items-center justify-center w-16 xl:w-[73px]">
-                  <span className="bg-gray-200 text-h6 h-[20px] px-2 rounded-md xl:h-5 flex items-center dark:bg-grey dark:text-gray-300">
+                <div className="flex flex-col items-center justify-between w-14 h-[65px]">
+                  <span className="bg-gray-200 text-h6 w-[56px] h-[21px] rounded-md flex items-center justify-center dark:bg-darkGrey dark:text-gray-300">
                     {startData.month}
                   </span>
-                  <span className="text-h2 font-bold">{startData.day}</span>
-                  <span className="text-level-2 font-normals text-sm text-gray-600 dark:text-white">{startData.weekday}</span>
+                  <span className="text-h2 font-bold pt-[2px]">{startData.day}</span>
+                  <span className="text-level-2 h-[18px] font-normal text-sm text-gray-600 dark:text-white">{startData.weekday}</span>
                 </div>
 
                 {/* Separator */}
-                <div className="w-[1px] bg-gray-300 h-12" />
+                <div className="w-[1px] bg-gray-300 h-[51px]" />
 
                 {/* Right side: Clock Icon + Time Range */}
                 <div className="flex items-center gap-2">

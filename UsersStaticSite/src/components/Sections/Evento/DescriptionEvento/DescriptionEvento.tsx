@@ -25,7 +25,7 @@ function DescriptionEvento({ description, info, contacts, socials }: Props): Rea
   return (
     <section className='px-4 flex flex-col gap-12 md:px-8 lg:px-0 md:items-start md:justify-center md:mx-auto lg:mx-0'>
       <section className='max-w-[335px] flex flex-col gap-4 md:max-w-[770px] lg:max-w-[530px] xl:max-w-[530px] xl:max-h-[242px]'>
-        <h2 className='text-h2 text-black'>Sobre o evento</h2>
+        <h2 className='text-h2 text-black'>Sobre o Evento</h2>
         <p className='text-level-1 font-normal '>{description}</p>
       </section>
 
